@@ -1,0 +1,16 @@
+{
+  "name": "ghost-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "chmod +x ./copy-sources.sh && ./copy-sources.sh && node start.js",
+    "kill": "chmod +x ./copy-sources.sh && ./copy-sources.sh && node kill.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
