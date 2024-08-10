@@ -15,7 +15,7 @@ services:
       database__connection__database: ${MYSQL_DATABASE}
       database__connection__user: ${MYSQL_USER}
       database__connection__password: ${MYSQL_PASSWORD}
-      url: "http://${DOMAIN_NAME}"
+      url: "https://${DOMAIN_NAME}"
       mail__transport: SMTP
       mail__options__service: Gmail
       mail__options__host: smtp.gmail.com
